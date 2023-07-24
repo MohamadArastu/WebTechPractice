@@ -4,3 +4,12 @@ body {
   background-attachment: fixed;
   background-size: cover;
 }
+
+header {
+  text-align: center;
+  font-size: large;
+}
+
+.back {
+  color: white;
+}
