@@ -142,8 +142,40 @@
 
     <p>Hello, how about a magic trick ? <bdo dir="rtl">Hello</bdo></p>
 
-    <p class="borderColor">Paragraph 1</p>
-    <p class="borderColor">Paragraph 2</p>
-    <p class="borderColor">Paragraph 3</p>
+    <p class="borderColor hover1">Paragraph 1</p>
+    <p class="borderColor hover2">Paragraph 2</p>
+    <p class="borderColor hover3">Paragraph 3</p>
+
+    <p>
+      Press on the Axe and the bow and the kratos and his son to see how image
+      mapping works.
+    </p>
+
+    <img
+      src="https://www.w3schools.com/html/workplace.jpg"
+      alt="Tech Devices"
+      usemap="#workmap"
+    />
+
+    <map name="workmap">
+      <area
+        shape="rect"
+        coords="34,44,270,350"
+        alt="Computer"
+        href="computer.htm"
+      />
+      <area
+        shape="rect"
+        coords="290,172,333,250"
+        alt="Phone"
+        href="phone.htm"
+      />
+      <area
+        shape="circle"
+        coords="337,300,44"
+        alt="Cup of coffee"
+        href="coffee.htm"
+      />
+    </map>
   </body>
 </html>
