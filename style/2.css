@@ -16,3 +16,9 @@ header {
   bottom: -670px;
   font-size: larger;
 }
+
+.Users {
+  border: 2px solid white;
+  color: white;
+  text-align: center;
+}
