@@ -23,6 +23,7 @@ th,
 td {
   border: 2px solid white;
   border-collapse: collapse;
+  border-radius: 20px;
   color: white;
   text-align: center;
   width: 20%;
