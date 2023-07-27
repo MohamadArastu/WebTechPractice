@@ -46,3 +46,8 @@ tr:hover {
   display: inline-block;
   vertical-align: top;
 }
+
+iframe {
+  float: right;
+  margin-right: 10px;
+}
