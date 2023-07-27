@@ -29,7 +29,20 @@ td {
   width: 20%;
 }
 
+tr:nth-child(even) {
+  background-color: rgba(150, 212, 212, 0.7);
+}
+
+tr:hover {
+  background-color: aquamarine;
+}
+
 .userinfocaption {
   padding-top: 10px;
   font-size: small;
+}
+
+.customlist {
+  display: inline-block;
+  vertical-align: top;
 }
