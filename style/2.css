@@ -28,3 +28,8 @@ td {
   text-align: center;
   width: 20%;
 }
+
+.userinfocaption {
+  padding-top: 10px;
+  font-size: small;
+}
