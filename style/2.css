@@ -36,12 +36,6 @@ nav a {
   text-decoration: none; /* Remove underline from anchor tags */
 }
 
-.back {
-  color: white;
-  position: relative;
-  font-size: larger;
-}
-
 .Users,
 th,
 td {
