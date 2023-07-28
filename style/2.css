@@ -69,3 +69,25 @@ iframe {
   float: right;
   margin-right: 10px;
 }
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; /* To wrap the content to a new line if necessary */
+  padding: 10px;
+}
+
+.copyr{
+  color: white;
+  font-size: small;
+  margin: 10px;
+  text-align: center;
+}
+
+iframe {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 10px; /* Add some margin for spacing */
+}
