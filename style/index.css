@@ -21,3 +21,8 @@
   background-color: transparent;
   text-decoration: wavy;
 }
+
+.nextpage{
+  text-align: right;
+  padding-right: 5px;
+}

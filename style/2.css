@@ -11,6 +11,31 @@ header {
   font-size: large;
 }
 
+nav {
+  display: flex;
+  justify-content: flex-start;
+}
+
+nav ul {
+  list-style: none; /* Remove default list styles */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px; /* Add some spacing between navigation items */
+}
+
+nav li:last-child {
+  margin-right: 0; /* Remove margin from the last navigation item */
+}
+
+nav a {
+  color: greenyellow;
+  text-decoration: none; /* Remove underline from anchor tags */
+}
+
 .back {
   color: white;
   position: relative;
