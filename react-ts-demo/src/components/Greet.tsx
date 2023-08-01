@@ -1,7 +1,6 @@
 type GreetProps = {
   name: string;
   msgcount?: number;
-  userCount?: number;
   isLoggin: boolean;
 };
 
@@ -14,7 +13,6 @@ export const Greet = (props: GreetProps) => {
           ? `Greeting ${props.name}, they are ${msgcount} unread messages`
           : "Welcome guest"}
       </h2>
-      <p>Number of users: {props.userCount}</p>
     </div>
   );
 };
