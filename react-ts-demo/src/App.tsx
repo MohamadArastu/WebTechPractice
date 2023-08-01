@@ -10,6 +10,7 @@ import { Input } from "./components/Input";
 import { useState, ChangeEvent, MouseEvent } from "react";
 
 import "./App.css";
+import { Container } from "./components/Container";
 
 const personName = {
   first: "Jack",
@@ -53,6 +54,7 @@ function App() {
       </Award>
       <Button handleClick={handleButtonClick} />
       <Input value={inputValue} handleChange={handleInputChange} />
+      <Container style={{ border: "2px solid black", padding: "1px" }} />
       <p>So far we came this far</p>
       <LearningLinks links={llinks} />
     </div>
