@@ -24,8 +24,8 @@ const personNames = [
 
 const llinks = [
   {
-    link: "https://www.youtube.com/watch?v=zLyeWSfTMa8&list=PLC3y8-rFHvwi1AXijGTKM0BKtHzVC-LSK&index=5",
-    linkName: "React TypeScript Tutorial - 5 - Advanced Props",
+    link: "https://www.youtube.com/watch?v=2NKNjeB0WVs&list=PLC3y8-rFHvwi1AXijGTKM0BKtHzVC-LSK&index=9",
+    linkName: "React TypeScript Tutorial - 9 - useState Hook",
   },
 ];
 
