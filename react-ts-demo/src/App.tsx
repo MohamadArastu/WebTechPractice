@@ -2,8 +2,11 @@ import { Greet } from "./components/Greet";
 import { Person } from "./components/Person";
 import { PersonList } from "./components/PersonList";
 import { LearningLinks } from "./components/LearningLinks";
-import "./App.css";
 import { Status } from "./components/Status";
+import { Heading } from "./components/Heading";
+import { Award } from "./components/Award";
+
+import "./App.css";
 
 function App() {
   const personName = {
@@ -27,10 +30,16 @@ function App() {
 
   return (
     <div className="App">
-      <Greet name="Momo" msgcount={10} isLoggin={false} />
+      <h1>Welcome to our React ts practice</h1>
+      <Greet name="Momo" msgcount={10} isLoggin={true} />
+      <Greet name="Alison" isLoggin={false} />
       <Person name={personName} />
       <PersonList names={personNames} />
       <Status status="2" />
+      <Heading>Placeholder</Heading>
+      <Award>
+        <Heading>The award will goes to ME !</Heading>
+      </Award>
       <p>
         So far we came this farm <LearningLinks links={llinks} />
       </p>

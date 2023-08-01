@@ -1,18 +1,20 @@
 type GreetProps = {
   name: string;
-  msgcount: number;
+  msgcount?: number;
+  userCount?: number;
   isLoggin: boolean;
 };
 
 export const Greet = (props: GreetProps) => {
+  const { msgcount = 0 } = props;
   return (
     <div>
-      <h1>Welcome to our React ts practice</h1>
       <h2>
         {props.isLoggin
-          ? `My name is ${props.name}, they are ${props.msgcount} unread messages`
+          ? `Greeting ${props.name}, they are ${msgcount} unread messages`
           : "Welcome guest"}
       </h2>
+      <p>Number of users: {props.userCount}</p>
     </div>
   );
 };
