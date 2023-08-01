@@ -11,6 +11,7 @@ import { useState, ChangeEvent, MouseEvent } from "react";
 
 import "./App.css";
 import { Container } from "./components/Container";
+import { LoggedIn } from "./components/state/LoggedIn";
 
 const personName = {
   first: "Jack",
@@ -55,6 +56,7 @@ function App() {
       <Button handleClick={handleButtonClick} />
       <Input value={inputValue} handleChange={handleInputChange} />
       <Container style={{ border: "2px solid black", padding: "1px" }} />
+      <LoggedIn />
       <p>So far we came this far</p>
       <LearningLinks links={llinks} />
     </div>
