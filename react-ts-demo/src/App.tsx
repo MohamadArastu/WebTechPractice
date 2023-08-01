@@ -7,28 +7,16 @@ import { Award } from "./components/Award";
 import { LearningLinks } from "./components/LearningLinks";
 import { Button } from "./components/Button";
 import { Input } from "./components/Input";
+import { Container } from "./components/Container";
+import { LoggedIn } from "./components/state/LoggedIn";
 import { useState, ChangeEvent, MouseEvent } from "react";
 
 import "./App.css";
-import { Container } from "./components/Container";
-import { LoggedIn } from "./components/state/LoggedIn";
-
-const personName = {
-  first: "Jack",
-  last: "Daniel",
-};
-
-const personNames = [
-  { first: "Leah Gotti", last: "Sara Thai" },
-  { first: "Bruce Lee", last: "Iron Man" },
-];
-
-const llinks = [
-  {
-    link: "https://www.youtube.com/watch?v=2NKNjeB0WVs&list=PLC3y8-rFHvwi1AXijGTKM0BKtHzVC-LSK&index=9",
-    linkName: "React TypeScript Tutorial - 9 - useState Hook",
-  },
-];
+import {
+  llinks,
+  personName,
+  personNames,
+} from "./components/types/Custom.types";
 
 function App() {
   const [inputValue, setInputValue] = useState(""); // State to store the input value
