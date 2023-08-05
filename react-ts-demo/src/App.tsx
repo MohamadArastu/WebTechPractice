@@ -18,6 +18,7 @@ import {
   personNames,
 } from "./components/types/Custom.types";
 import { User } from "./components/state/User";
+import { Counter } from "./components/state/Counter";
 
 function App() {
   const [inputValue, setInputValue] = useState(""); // State to store the input value
@@ -47,6 +48,7 @@ function App() {
       <Container style={{ border: "2px solid black", padding: "1px" }} />
       <LoggedIn />
       <User />
+      <Counter />
       <p>So far we came this far</p>
       <LearningLinks links={llinks} />
     </div>
