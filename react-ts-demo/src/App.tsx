@@ -10,7 +10,6 @@ import { Input } from "./components/Input";
 import { Container } from "./components/Container";
 import { LoggedIn } from "./components/state/LoggedIn";
 import { useState, ChangeEvent, MouseEvent } from "react";
-
 import "./App.css";
 import {
   llinks,
@@ -19,6 +18,8 @@ import {
 } from "./components/types/Custom.types";
 import { User } from "./components/state/User";
 import { Counter } from "./components/state/Counter";
+import { ThemeContextProvider } from "./components/context/ThemeContext";
+import { Box } from "./components/context/Box";
 
 function App() {
   const [inputValue, setInputValue] = useState(""); // State to store the input value
@@ -49,6 +50,9 @@ function App() {
       <LoggedIn />
       <User />
       <Counter />
+      <ThemeContextProvider>
+        <Box />
+      </ThemeContextProvider>
       <p>So far we came this far</p>
       <LearningLinks links={llinks} />
     </div>

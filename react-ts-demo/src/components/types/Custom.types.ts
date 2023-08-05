@@ -10,7 +10,7 @@ export const personNames = [
 
 export const llinks = [
   {
-    link: "https://www.youtube.com/watch?v=LNpWuRUIR5A&list=PLC3y8-rFHvwi1AXijGTKM0BKtHzVC-LSK&index=10",
-    linkName: "React TypeScript Tutorial - 10 - useState Future Value",
+    link: "https://www.youtube.com/watch?v=LNpWuRUIR5A&list=PLC3y8-rFHvwi1AXijGTKM0BKtHzVC-LSK&index=10https://www.youtube.com/watch?v=9726Yq3Scjk&list=PLC3y8-rFHvwi1AXijGTKM0BKtHzVC-LSK&index=15",
+    linkName: "React TypeScript Tutorial - 15 - useContext Future Value",
   },
 ];
