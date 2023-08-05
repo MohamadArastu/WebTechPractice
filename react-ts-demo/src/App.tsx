@@ -17,6 +17,7 @@ import {
   personName,
   personNames,
 } from "./components/types/Custom.types";
+import { User } from "./components/state/User";
 
 function App() {
   const [inputValue, setInputValue] = useState(""); // State to store the input value
@@ -45,6 +46,7 @@ function App() {
       <Input value={inputValue} handleChange={handleInputChange} />
       <Container style={{ border: "2px solid black", padding: "1px" }} />
       <LoggedIn />
+      <User />
       <p>So far we came this far</p>
       <LearningLinks links={llinks} />
     </div>
