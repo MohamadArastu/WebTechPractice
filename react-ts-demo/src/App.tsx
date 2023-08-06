@@ -20,6 +20,8 @@ import { User } from "./components/state/User";
 import { Counter } from "./components/state/Counter";
 import { ThemeContextProvider } from "./components/context/ThemeContext";
 import { Box } from "./components/context/Box";
+import { DomRef } from "./components/ref/DomRef";
+import { MutableRef } from "./components/ref/MutableRef";
 
 function App() {
   const [inputValue, setInputValue] = useState(""); // State to store the input value
@@ -53,6 +55,8 @@ function App() {
       <ThemeContextProvider>
         <Box />
       </ThemeContextProvider>
+      <DomRef />
+      <MutableRef />
       <p>So far we came this far</p>
       <LearningLinks links={llinks} />
     </div>
