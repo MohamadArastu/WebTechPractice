@@ -22,6 +22,7 @@ import { ThemeContextProvider } from "./components/context/ThemeContext";
 import { Box } from "./components/context/Box";
 import { DomRef } from "./components/ref/DomRef";
 import { MutableRef } from "./components/ref/MutableRef";
+import { CounterClass } from "./components/class/CounterClass";
 
 function App() {
   const [inputValue, setInputValue] = useState(""); // State to store the input value
@@ -57,6 +58,7 @@ function App() {
       </ThemeContextProvider>
       <DomRef />
       <MutableRef />
+      <CounterClass message="Counter " />
       <p>So far we came this far</p>
       <LearningLinks links={llinks} />
     </div>
