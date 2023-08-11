@@ -23,6 +23,9 @@ import { Box } from "./components/context/Box";
 import { DomRef } from "./components/ref/DomRef";
 import { MutableRef } from "./components/ref/MutableRef";
 import { CounterClass } from "./components/class/CounterClass";
+import { Private } from "./components/auth/Private";
+import { Profile } from "./components/auth/Profile";
+import { List } from "./components/generics/List";
 
 function App() {
   const [inputValue, setInputValue] = useState(""); // State to store the input value
@@ -59,6 +62,12 @@ function App() {
       <DomRef />
       <MutableRef />
       <CounterClass message="Counter " />
+      <Private isLoggedIn={true} component={Profile} />
+      <List
+        items={["Banana", "Peach", "Apple"]}
+        onClick={(item) => console.log(item)}
+      />
+      <List items={[1, 2, 3, 4, 5]} onClick={(item) => console.log(item)} />
       <p>So far we came this far</p>
       <LearningLinks links={llinks} />
     </div>

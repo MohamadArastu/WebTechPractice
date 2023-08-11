@@ -2,7 +2,7 @@ import { Component } from "react";
 
 type CounterProps = {
   message: string;
-};
+}; 
 
 type CounterState = {
   count: number;
