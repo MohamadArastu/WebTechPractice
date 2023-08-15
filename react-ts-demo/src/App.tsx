@@ -26,6 +26,7 @@ import { CounterClass } from "./components/class/CounterClass";
 import { Private } from "./components/auth/Private";
 import { Profile } from "./components/auth/Profile";
 import { List } from "./components/generics/List";
+import { RandomNumber } from "./components/restriction/RandomNumber";
 
 function App() {
   const [inputValue, setInputValue] = useState(""); // State to store the input value
@@ -68,6 +69,7 @@ function App() {
         onClick={(item) => console.log(item)}
       />
       <List items={[1, 2, 3, 4, 5]} onClick={(item) => console.log(item)} />
+      <RandomNumber value={10} isPositive />
       <p>So far we came this far</p>
       <LearningLinks links={llinks} />
     </div>
