@@ -1,2 +1,0 @@
-# HTMLPractice
-Extend HTML Knowledge 
